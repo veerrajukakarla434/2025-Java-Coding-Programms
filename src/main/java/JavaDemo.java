@@ -1,8 +1,14 @@
+import java.util.Scanner;
 
 public class JavaDemo {
 
 	public static void main(String[] args) {
-        System.out.println("Welcome to Java World March 2025");
+       
+        Scanner scanner = new Scanner(System.in);
+       
+        String myString = scanner.nextLine();
+        System.out.println("String:"+myString);
+        scanner.close();
 	}
 
 }
