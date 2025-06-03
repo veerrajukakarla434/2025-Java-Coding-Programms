@@ -20,7 +20,6 @@ public class P0001LeftRotation {
        List<Integer> integerList = Arrays.stream(intArray).boxed().collect(Collectors.toList());
        
        // List<Integer> integerList = Arrays.asList(intArray);
-       
         System.out.println("Left Rorate with "+ 3);
         rotLeftInteger(integerList, 3); // calling List<Integer>
         System.out.println();
