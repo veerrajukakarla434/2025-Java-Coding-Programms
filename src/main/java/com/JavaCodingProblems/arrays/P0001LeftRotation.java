@@ -16,7 +16,6 @@ public class P0001LeftRotation {
 	public static void main(String[] args) {
 
 		int[] intArray = { 1, 2, 3, 4, 5, 6 };
-
 		// Convert int array to List<Integer> using streams
        List<Integer> integerList = Arrays.stream(intArray).boxed().collect(Collectors.toList());
        
